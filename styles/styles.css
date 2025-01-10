@@ -1,0 +1,133 @@
+body{
+  background-color: #5b4fff;
+  color: black;
+ 
+}
+
+ #pivotLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5em;
+  margin-top: 20px;
+  width: 80%;
+  height: 80%;
+ }
+
+ #events{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+}
+
+#releases{
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+}
+#mixes{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+}
+
+#new{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#about{
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+}
+
+#other{
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+}
+#past{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+
+}
+
+
+.scrolling-box {
+  width: 80%;
+  height: 25px;
+  overflow: hidden;
+  border: 2px solid #333;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.scrolling-text {
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
+  font-size: 20px;
+  color: #333;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+/* Styles for the popup ad */
+.popup-ad {
+    position: absolute;
+    visibility: hidden; /* Initially hidden */
+   
+    padding: 20px;
+    width: 200px;
+  
+    z-index: 9999; /* Make sure it's on top of other elements */
+
+}
+
+
+
+
+
+
+
